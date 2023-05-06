@@ -1,0 +1,56 @@
+.banners{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.left-banners{
+    margin-right: 5px;
+    cursor: pointer;
+}
+.left-banners > img{
+    width: 815px;
+    border-radius: 2px;
+}
+.right-banners > img{
+    width: 400px;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.bottom-banners{
+    width: 1200px;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+.bottom-banners > li{
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bottom-banners>li>span{
+    margin-bottom: auto;
+}
+.bottom-banners > li > img{
+    width: 45px;
+    margin-bottom: 5px;
+}
+.bottom-banners > li:hover > img{
+    width: 46px;
+    padding-bottom: 7px;
+}
+.bottom-banners > li > span {
+    width: 90px;
+    overflow: visible;
+}
+
+.floating{
+    position: fixed;
+    right: 80px;
+    bottom: 100px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+  
